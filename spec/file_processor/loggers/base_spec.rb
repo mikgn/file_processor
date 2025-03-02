@@ -13,9 +13,9 @@ RSpec.describe FileProcessor::Loggers::Base do
 
       log_content = File.read(log_file)
       expect(log_content).to match(/time=\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/)
-      expect(log_content).to include("severity=info")
-      expect(log_content).to include("processor=TestProcessor")
-      expect(log_content).to include("message=Test log message")
+      expect(log_content).to include('severity=info')
+      expect(log_content).to include('processor=TestProcessor')
+      expect(log_content).to include('message=Test log message')
     end
   end
 
@@ -31,9 +31,9 @@ RSpec.describe FileProcessor::Loggers::Base do
 
       log_content = File.read(log_file)
       expect(log_content).to match(/time=\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2}/)
-      expect(log_content).to include("severity=info")
-      expect(log_content).to include("processor=TestProcessor")
-      expect(log_content).to include("message=Test log message")
+      expect(log_content).to include('severity=info')
+      expect(log_content).to include('processor=TestProcessor')
+      expect(log_content).to include('message=Test log message')
     end
   end
 end
