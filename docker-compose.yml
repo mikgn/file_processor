@@ -4,4 +4,5 @@ services:
   file_processor:
     build: .
     volumes:
-      - ./data/preview:/app//data/preview
+      - ./data/preview:/app/data/preview
+      - ./log:/app/log
