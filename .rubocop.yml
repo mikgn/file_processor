@@ -1,0 +1,24 @@
+AllCops:
+  NewCops: disable
+  SuggestExtensions: false
+
+Layout/LineLength:
+  Max: 110
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/MethodLength:
+  Max: 15
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/BlockLength:
+  Max: 10
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/AbcSize:
+  Max: 20
+
+Style/Documentation:
+  Enabled: false
