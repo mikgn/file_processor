@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'spec_helper'
-
 RSpec.describe FileProcessor::PreviewGenerators::Image do
   describe '#generate_preview' do
     it 'resizes the image' do

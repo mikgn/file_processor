@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'spec_helper'
-
 RSpec.describe FileProcessor::PreviewGenerators::Base do
   describe '#call' do
     it 'generates a preview and logs the info' do

@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'spec_helper'
-
 RSpec.describe FileProcessor::Converters::PdfToText do
   let(:input_file) { 'spec/fixtures/input.pdf' }
   let(:output_file) { 'spec/fixtures/output.txt' }
