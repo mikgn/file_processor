@@ -41,11 +41,13 @@ These dependencies are installed within the Docker container using the Dockerfil
 ## Examples
 
 `./bin/cli process -f data/sample/sample_pdf.pdf -c all  `
+
 `./bin/cli process -f data/sample/sample_jpg.jpg -c preview`
 
 
 ## Docker
 
 `docker compose build`
+
 `docker compose run --rm file_processor -f data/sample/sample_pdf.pdf -c all`
 
